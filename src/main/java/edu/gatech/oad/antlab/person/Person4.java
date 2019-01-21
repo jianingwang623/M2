@@ -1,5 +1,8 @@
 package edu.gatech.oad.antlab.person;
+<<<<<<< HEAD
 import java.lang.StringBuilder;
+=======
+>>>>>>> Initial commit
 
 /**
  *  A simple class for person 4
@@ -32,6 +35,7 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
+<<<<<<< HEAD
       StringBuilder answer = new StringBuilder();
       for (int i = 0; i < input.length(); i++) {
           if (Character.isLetter(input.charAt(i))) {
@@ -43,6 +47,9 @@ public class Person4 {
           }
       }
       return answer;
+=======
+      return null;
+>>>>>>> Initial commit
     }
     
     /**
