@@ -30,8 +30,17 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+		List<Character> chars = new ArrayList<>();
+		for (char c: input.toCharArray()) {
+			chars.add(c);
+		}
+		StringBuilder randomized = new StringBuilder(chars.size());
+		while (chars.size() > 0) {
+			int randNum = (int) (Math.random() * chars.size());
+			randomized.append(chars.remove(randNum));
+		}
+
+		return randomized.toString();
 	}
 	/**
 	 * Return a string rep of this object
