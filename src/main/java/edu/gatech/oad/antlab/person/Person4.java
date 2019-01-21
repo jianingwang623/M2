@@ -37,7 +37,7 @@ public class Person4 {
           if (Character.isLetter(input.charAt(i))) {
               int ascii = (int) input.charAt(i);
               int ascii2 = ascii + 1;
-              answer.append(Character.toString((char)ascii2));
+              answer.append(Character.toString((char) ascii2));
           } else {
               answer.append(input.charAt(i) - 47);
           }
