@@ -43,6 +43,7 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+		StringBuffer sb = new StringBuffer(input);
+		return sb.reverse().toString();
 	}
 }
