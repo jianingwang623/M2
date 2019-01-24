@@ -1,2 +1,2 @@
-Kevin Barone
-kbarone2@gatech.edu
+My name is Kevin Barone
+My email is kbarone2@gatech.edu
