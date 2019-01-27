@@ -1,5 +1,4 @@
 package edu.gatech.oad.antlab.person;
-import java.lang.StringBuilder;
 
 
 /**
@@ -33,14 +32,16 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      StringBuilder answer = new StringBuilder();
+      String answer = "";
       for (int i = 0; i < input.length(); i++) {
           if (Character.isLetter(input.charAt(i))) {
               int ascii = (int) input.charAt(i);
               int ascii2 = ascii + 1;
-              answer.append(Character.toString((char) ascii2));
+              answer += Character.toString((char) ascii2);
+              //answer.append(Character.toString((char) ascii2));
           } else {
-              answer.append(input.charAt(i) - 47);
+              answer += input.charAt(i) - 47;
+              //answer.append(input.charAt(i) - 47);
           }
       }
       return answer;
